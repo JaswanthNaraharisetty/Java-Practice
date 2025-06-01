@@ -1,15 +1,13 @@
 package com.ColletionsLearning;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class ArrayListPractice {
 
     public static void main(String[] args) {
 
         List<String> tempList = new ArrayList<String>();
+        Map<String, Integer> mapforCount = new HashMap<String, Integer>();
 
         tempList.add("Alice");
         tempList.add("Bob");
@@ -17,6 +15,7 @@ public class ArrayListPractice {
         tempList.add("Diana");
         tempList.add("Ethan");
         tempList.add("Fiona");
+        tempList.add("Alice");
 
         System.out.println(tempList);
 
@@ -33,8 +32,18 @@ public class ArrayListPractice {
 
         for (String name : tempList) {
             System.out.println(name);
-        }
 
+            if (mapforCount.get(name) == null) {
+                mapforCount.put(name, 1);
+
+            } else {
+                mapforCount.put(name, mapforCount.get(name) + 1);
+            }
+
+
+        }
+        
+        System.out.println(mapforCount);
 
     }
 }
