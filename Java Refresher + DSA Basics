@@ -1,0 +1,87 @@
+Phase 1: Java Refresher + DSA Basics (Weeks 1–4)
+
+Java Topics (1 hour/day)
+- OOP principles: Inheritance, Encapsulation, Polymorphism, Abstraction
+- Java Collections: List, Set, Map, Queue
+- Generics
+- Exception handling
+- Recursion
+- Input/output handling
+- Java 8+ (optional): Streams, Lambdas, Functional Interfaces
+
+DSA Topics (1–2 hours/day)
+- Arrays and Strings
+- HashMap & HashSet
+- Recursion basics
+- Sorting Algorithms:
+  - Bubble Sort
+  - Selection Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+
+Practice Platforms
+- LeetCode (Easy)
+- HackerRank
+- GFG – 450 DSA Sheet
+- CodeStudio (Love Babbar DSA Sheet)
+
+
+Phase 2: Intermediate DSA (Weeks 5–8)
+
+DSA Topics
+- Stacks and Queues
+- Linked Lists (Single, Double, Cycle Detection)
+- Two Pointers
+- Sliding Window
+- Binary Search (Standard + Answer-based)
+- Medium-level Recursion and Backtracking
+
+Practice Strategy
+- Solve 2–3 medium-level problems/day
+- Solve 1–2 easy-level problems as warm-up
+- Focus on writing clean, efficient code with proper comments
+
+
+Phase 3: Advanced DSA Concepts (Weeks 9–12)
+
+DSA Topics
+- Trees:
+  - Binary Tree
+  - Binary Search Tree (BST)
+  - Tree Traversals: Inorder, Preorder, Postorder
+- Heaps & Priority Queues
+- Tries
+- Graphs:
+  - BFS & DFS
+  - Union-Find
+  - Dijkstra’s Algorithm
+- Greedy Algorithms
+- Dynamic Programming:
+  - Fibonacci
+  - 0/1 Knapsack
+  - Longest Common Subsequence (LCS)
+
+Practice Strategy
+- Focus on mastering 1 data structure or algorithm per week
+- Solve 2–3 problems per day (mix of easy/medium)
+- Attempt 1 hard problem per week
+
+
+Phase 4: Mastery, Patterns & Interview Preparation (Weeks 13–16)
+
+Focus Areas
+- Sliding Window
+- Two Pointers
+- Bit Manipulation
+- Backtracking Patterns
+- DP on Trees & Grids
+- Top K patterns using heaps/queues
+
+Practice Strategy
+- Solve pattern-based problems from NeetCode or Blind 75 list
+- Participate in weekly contests on:
+  - LeetCode
+  - Codeforces
+  - AtCoder
+- Review incorrect submissions and maintain a "Mistake Tracker" document

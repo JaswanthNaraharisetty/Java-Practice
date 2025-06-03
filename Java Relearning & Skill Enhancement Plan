@@ -1,0 +1,54 @@
+Java Relearning & Skill Enhancement Plan (8–12 Weeks)
+
+Phase 1: Core Java Refresher (Week 1–2)
+- Java Basics: Data types, operators, control flow
+- OOP Concepts: Classes, objects, inheritance, polymorphism, abstraction, encapsulation
+- Exception Handling: try-catch, custom exceptions, best practices
+- Java Collections Framework: List, Set, Map, Queue, Comparator vs Comparable
+- Generics: Use cases, bounded types
+
+Phase 2: Intermediate Java (Week 3–4)
+- Java 8 Features:
+  - Streams API
+  - Lambda expressions (Optional if your environment doesn’t support it)
+  - Functional interfaces
+  - Optional and method references
+- Multithreading & Concurrency:
+  - Thread lifecycle
+  - Runnable vs Callable
+  - Executor framework
+  - Synchronization & locks
+- File I/O (NIO)
+- Java Annotations & Enums
+
+Phase 3: Advanced Java (Week 5–6)
+- JVM Internals:
+  - Memory management (heap, stack, metaspace)
+  - Garbage Collection
+  - Class loading
+- Reflection & ClassLoader
+- Java Memory Model & Thread Safety
+- Java Modules (Java 9+)
+
+Phase 4: Frameworks and Ecosystem (Week 7–9)
+- Build Tools: Maven or Gradle
+- Spring Framework:
+  - Spring Core (IoC, DI)
+  - Spring Boot
+  - Spring Data JPA
+  - REST APIs with Spring MVC
+- Hibernate / JPA basics
+- Testing:
+  - JUnit 5
+  - Mockito / AssertJ
+
+Phase 5: Best Practices & Design (Week 10–11)
+- SOLID Principles
+- Design Patterns: Singleton, Factory, Strategy, Observer, etc.
+- Clean Code practices
+- Code Refactoring techniques
+
+Phase 6: Modern Java & Hands-On (Week 12+)
+- Learn Java 11/17+ features (records, sealed classes, switch expressions)
+- Build a sample project (e.g., a task manager, REST API backend, mini e-commerce system)
+- Explore APIs like Jackson (JSON), Apache Commons, etc.
