@@ -3,24 +3,24 @@ package com.Recursion;
 public class FactorialOfNNumbers {
     public static void main(String[] args) {
 
-       int output = factorial(10);
+        int output = factorial(5);
 
-       System.out.println(output);
+        System.out.println(output);
 
     }
 
-   public  static int factorial(int inputNumber){
+    public static int factorial(int inputNumber) {
 
-        if (inputNumber>0) {
-            inputNumber = inputNumber * factorial(inputNumber-1);
+        if (inputNumber > 0) {
+            inputNumber = inputNumber * factorial(inputNumber - 1);
 
-       } else {
+        } else {
             return 1;
         }
 
-       return  inputNumber;
+        return inputNumber;
 
 
-   }
+    }
 
 }
