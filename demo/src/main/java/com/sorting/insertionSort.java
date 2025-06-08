@@ -1,5 +1,7 @@
 package com.sorting;
 
+import java.util.Arrays;
+
 public class insertionSort {
 
     public static void main(String[] args) {
@@ -7,21 +9,25 @@ public class insertionSort {
         int[] inputArray = new int[]{-3, 0, 2, -5, 8, 1};
 
         int index;
+        int temp;
 
         for (int i = 1; i < inputArray.length; i++) {
-            int currentvalue = inputArray[i];
-            index = i - 1;
 
-            while (index != 0) {
-                if (inputArray[index] > currentvalue) {
+            for (int j = i; j > 0; j--) {
+
+                if (inputArray[j] < inputArray[j - 1]) {
+                    temp = inputArray[j - 1];
+                    inputArray[j - 1] = inputArray[j];
+                    inputArray[j] = temp;
 
                 }
-
-                index--;
             }
+
         }
-
-
+        Arrays.stream(inputArray).forEach(System.out::println);
     }
 
+
 }
+
+
