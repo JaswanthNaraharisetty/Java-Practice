@@ -10,7 +10,7 @@ public class QuickSort {
         List<Integer> inputList = new ArrayList<>(Arrays.asList(-3, 0, 2, -5, 8));
 
         List<Integer> finalOutput = quickSOrt(inputList, 0);
-        
+
 
     }
 
@@ -20,7 +20,8 @@ public class QuickSort {
 
 
         for (int i = 0; i < inputList.size(); i++) {
-            // System.out.println(inputList.get(i));
+
+            System.out.println(inputList.get(i));
 
         }
         return inputList;
