@@ -7,7 +7,7 @@ import java.util.List;
 public class QuickSort {
 
     public static void main(String[] args) {
-        List<Integer> inputList = new ArrayList<>(Arrays.asList(-3, 0, 2, -5, 8));
+        List<Integer> inputList = new ArrayList<>(Arrays.asList(-3, 0, 2, -5, 8, 1, 53, 15, 71, 94, 11, 38, 66, 92, 18, 78, 25));
 
         List<Integer> finalOutput = quickSOrt(inputList, 0);
 
